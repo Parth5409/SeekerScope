@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cookieParser());
 const corsOptions = {
-  origin: process.env.CLIENT_URL || "http://localhost:5173", // Include deployed frontend URL
+  origin: "https://seeker-scope.vercel.app/", // Include deployed frontend URL
   credentials: true,
 };
 app.use(cors(corsOptions));
