@@ -1,4 +1,4 @@
-import { Edit2, Eye, MoreHorizontal } from "lucide-react";
+import { Eye, MoreHorizontal } from "lucide-react";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
 import {
   Table,
@@ -12,7 +12,6 @@ import {
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button } from "../ui/button";
 
 export default function AdminJobsTable() {
   // const { companies } = useSelector((store) => store.company);
