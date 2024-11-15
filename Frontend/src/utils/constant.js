@@ -1,4 +1,4 @@
-export const BASE_API_URL = process.env.REACT_APP_API_URL;
+export const BASE_API_URL = "https://seeker-scope-backend.vercel.app";
 
 // Updated endpoints
 export const USER_API_END_POINT = `${BASE_API_URL}/api/v1/user`;
