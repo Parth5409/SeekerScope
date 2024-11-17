@@ -1,4 +1,4 @@
-export const BASE_API_URL = "https://seeker-scope-backend.vercel.app";
+export const BASE_API_URL = "http://localhost:8080";
 
 // Updated endpoints
 export const USER_API_END_POINT = `${BASE_API_URL}/api/v1/user`;
