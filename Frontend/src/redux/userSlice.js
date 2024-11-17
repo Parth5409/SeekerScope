@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 const userSlice = createSlice({
   name: "user",
   initialState: {
-    userWithRoadmap: null, // Initial state for users with roadmaps
+    userWithRoadmap: [], // Initial state for users with roadmaps
   },
   reducers: {
     // Action to set the users with roadmaps

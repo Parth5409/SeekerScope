@@ -28,7 +28,7 @@ export default function RoadmapTable() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {userWithRoadmap.map((user) => (
+          {userWithRoadmap?.map((user) => (
             <TableRow key={user._id}>
               <TableCell>{user.fullname}</TableCell>
               <TableCell>{user.email}</TableCell>

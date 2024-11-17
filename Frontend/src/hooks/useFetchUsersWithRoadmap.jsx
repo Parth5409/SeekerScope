@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { useDispatch } from "react-redux";
-import axios from "axios"; // import the setUserWithRoadmap action
+import axios from "axios";
 import { USER_API_END_POINT } from "@/utils/constant";
 import { setUserWithRoadmap } from "@/redux/userSlice";
 
