@@ -7,6 +7,7 @@ import Navbar from "./shared/Navbar";
 import { useSelector } from "react-redux";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
+import useGetAllCompanies from "@/hooks/useGetAllCompanies";
 
 export default function Home() {
   useGetAllCompanies();
