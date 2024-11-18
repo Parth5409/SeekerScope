@@ -49,12 +49,10 @@ export default function CompaniesTable() {
           </TableRow>
         </TableHeader>
         <TableBody>
-          {filterCompany.length <= 0 ? (
-            <span>You have not registered any companies yet</span>
-          ) : (
+          {Array.isArray(filterCompany) && filterCompany.length > 0 ? (
             <>
-              {filterCompany?.map((company) => (
-                <tr>
+              {filterCompany.map((company) => (
+                <tr key={company._id}>
                   <TableCell>
                     <Avatar>
                       <AvatarImage src={company.logo} />
@@ -83,6 +81,8 @@ export default function CompaniesTable() {
                 </tr>
               ))}
             </>
+          ) : (
+            <span>You have not registered any companies yet</span>
           )}
         </TableBody>
       </Table>
