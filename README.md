@@ -1,4 +1,4 @@
-# SeekerScope: A Job Portal with Review and Roadmap Features
+# SeekerScope: A Job Portal with Roadmap Features
 
 SeekerScope is a MERN stack-based job portal designed to bridge the gap between job seekers and recruiters. It offers advanced features like profile creation, job applications, roadmap tracking for career progress, and dedicated admin tools for managing job posts and company profiles.
 
